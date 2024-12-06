@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Share+Tech+Mono&display=swap');
+*{
+    margin: 0px;
+    padding: 0px
+    box-sizing: border-box;
+}
+.biblioteca_home{
+    background-color: #161618;
+    color: #ad9978;
+    height: 100vh;
+}
+.biblioteca_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.biblioteca_conteudo{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+
+}
+.biblioteca_titulo{
+    padding-bottom: 10px;
+    font-family: Share Tech Mono, sans-serif;
+    font-size: 40px;
+}
+.biblioteca_titulodestaque{
+    color: #619177;
+}
+.biblioteca_paragrafo{
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: 400px;
+}
+.biblioteca_botao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    text-align: center ;
+    border-radius: 8px;
+    border: 2px solid #22D4FD;
+    font-size: 1,5rem;
+    padding: 25.5px 0;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+img{
+    width: 35%;
+    border-radius: 40%;
+}
+
