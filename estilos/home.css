@@ -11,6 +11,20 @@ body {
     color: #ad9978;
     height: 100vh;
 }
+.cabecalho{
+    padding-left: 15%;
+    padding-top: 1%;
+}
+.cabecalho_menu{
+    display: flex;
+    gap: 30px;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 28px;
+}
+.cabecalho_menu_links{
+    text-decoration: none;
+    color: #619177;
+}
 
 .biblioteca_home {
     padding: 4% 15%;
