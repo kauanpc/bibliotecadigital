@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Share+Tech+Mono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #161618;
+    color: #ad9978;
+    height: 100vh;
+}
+.cabecalho{
+    padding-left: 15%;
+    padding-top: 1%;
+}
+.cabecalho_menu{
+    display: flex;
+    gap: 30px;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 28px;
+}
+.cabecalho_menu_links{
+    text-decoration: none;
+    color: #619177;
+}
+
+.biblioteca_home {
+    padding: 4% 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biblioteca_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; /* Espaço entre o texto e a imagem */
+}
+
+.biblioteca_conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaço entre os elementos */
+    max-width: 600px; /* Para limitar a largura do texto */
+}
+
+.biblioteca_titulo {
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 40px;
+}
+
+.biblioteca_titulodestaque {
+    color: #619177;
+}
+
+.biblioteca_paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.biblioteca_subtitulo {
+    color: #619177;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.biblioteca_botao {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Espaço entre os botões */
+}
+
+.biblioteca_botao_link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    text-align: center ;
+    border-radius: 8px;
+    border: 2px solid #619177;
+    font-size: 1,5rem;
+    padding: 25.5px 0;
+    text-decoration: none;
+    color: #ad9978;
+    font-family:'Share Tech Mono', sans-serif;;
+    font-weight: 600;
+}
+.biblioteca_botao_logo{
+    width: 24px; /* Ajuste o tamanho da largura da imagem */
+    height: 24px; /* Ajuste a altura proporcional */
+    object-fit: contain; /* Garante que a imagem seja redimensionada proporcionalmente */
+}
+.biblioteca_imagem {
+    max-width: 40%; /* Limita a largura da imagem */
+    border-radius: 15%; /* Deixa a imagem arredondada */
+    height: auto; /* Mantém a proporção da imagem */
+}

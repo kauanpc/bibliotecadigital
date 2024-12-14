@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Share+Tech+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #161618;
+    color: #ad9978;
+    height: 100vh;
+}
+.cabecalho{
+    padding-left: 15%;
+    padding-top: 1%;
+}
+.cabecalho_menu{
+    display: flex;
+    gap: 30px;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 28px;
+}
+.cabecalho_menu_links{
+    text-decoration: none;
+    color: #619177;
+}
+.base_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Garante que os itens fiquem alinhados no topo */
+    gap: 20px; /* Espaço entre os elementos */
+    padding:2% 15%;
+}
+.base_titulo{
+    padding-bottom: 10%;
+    padding-left: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.base_titulo_destaque{
+    font-family:'Share Tech Mono', sans-serif;
+    font-size: 45px;
+    padding-left: 2%;
+    color:#619177
+}
+img {
+    height: auto;
+    width: 150%;
+    border-radius: 18%;
+    margin-bottom: 20px; /* Espaço entre a imagem e os links */
+}
+
+.base_links {
+    display: flex;
+    flex-direction: column; /* Links em coluna */
+    gap: 10px; /* Espaço entre os links */
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 18px;
+}
+
+.base_links a {
+    text-decoration: none;
+    color: #619177;
+    font-weight: bold;
+}
+
+.base_texto {
+    max-width: 60%; /* Limita a largura do texto */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ad9978;
+    text-align: center; /* Alinha o texto à esquerda */
+    padding-top: 20%;
+}
+
+
