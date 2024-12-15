@@ -30,12 +30,16 @@ body{
     align-items: flex-start; /* Garante que os itens fiquem alinhados no topo */
     gap: 20px; /* Espaço entre os elementos */
     padding:2% 15%;
+    max-width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+    flex-wrap: nowrap; /* Evita que os itens dentro do contêiner quebrem para a próxima linha */
 }
 .base_titulo{
     padding-bottom: 10%;
-    padding-left: 2%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    padding-left: 35%;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    white-space: nowrap; /* Impede a quebra de linha no título */
 }
 .base_titulo_destaque{
     font-family:'Share Tech Mono', sans-serif;
@@ -67,11 +71,92 @@ img {
 .base_texto {
     max-width: 60%; /* Limita a largura do texto */
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
     color: #ad9978;
-    text-align: center; /* Alinha o texto à esquerda */
-    padding-top: 20%;
+    text-align: justify; /* Alinha o texto à esquerda */
+    padding-top: 15%;
+    padding-left: 20%;
+}
+strong{
+    color: #5b756c;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.base_links{
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Espaço entre os botões */
+}
+.base_subtitulo{
+    color: #619177;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.base_botao_links{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 400px;
+    text-align: center ;
+    border-radius: 8px;
+    border: 2px solid #619177;
+    font-size: 23px;
+    padding: 12px 0 0 0;
+    text-decoration: none;
+    color: #ad9978;
+    font-family:'Share Tech Mono', sans-serif;;
+    font-weight: 600;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Suavidade nas transições */
+    position: relative;
+}
+.base_botao_links:hover {
+    color: #fff; /* Muda a cor do texto no hover */
+    box-shadow: 0 0 20px 5px #619177; /* Brilho no hover */
+    transform: scale(1.05); /* Aumenta levemente o botão */
 }
 
+.base_botao_links:focus {
+    outline: none; /* Remove o contorno ao focar */
+    box-shadow: 0 0 25px 8px #619177; /* Realça o brilho ao focar */
+}
+
+/* Animação de brilho pulsante */
+.base_botao_links:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 5px #619177;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.base_botao_links:hover::after {
+    opacity: 1; /* Brilho aparece ao passar o mouse */
+    animation: pulsar 1.5s infinite;
+}
+
+/* Keyframes para o brilho pulsante */
+@keyframes pulsar {
+    0%, 100% {
+        box-shadow: 0 0 15px 5px #619177;
+    }
+    50% {
+        box-shadow: 0 0 25px 10px #619177;
+    }
+}
+.base_botao_logo{
+    width: 44px; /* Ajuste o tamanho da largura da imagem */
+    height: 44px; /* Ajuste a altura proporcional */
+}
+.base_botao_links span {
+    margin-top: 8px; /* Move o texto para baixo */
+    color:#ad9978
+}
 
