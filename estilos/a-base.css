@@ -166,7 +166,7 @@ strong{
     align-items: center; /* Center the content horizontally */
   }
   
-  .base_titulo2 {
+.base_titulo2 {
     padding-bottom: 20px;
     padding-top: 3%;
     font-family: 'Share Tech Mono', sans-serif;
@@ -176,11 +176,19 @@ strong{
     text-align: center; /* Center the title text */
   }
   
-  .roadmap {
-    height: 5%;
-    width: 80%; /* Increase width to 80% */
+.roadmap {
+    height: auto;
+    width: 100%; /* Increase width to 80% */
     max-width: 600px; /* Increase max-width */
     margin-bottom: 20px; /* Add bottom margin for spacing */
     padding-bottom: 20px; /* Add padding at the bottom for extra space */
   }
+.rodape {
+    padding: 24px;
+    color: black;
+    background-color: #619177;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1,25rem;
+}
 
