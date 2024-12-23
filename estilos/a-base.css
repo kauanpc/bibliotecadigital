@@ -177,11 +177,9 @@ strong{
   }
   
 .roadmap {
-    height: auto;
-    width: 100%; /* Increase width to 80% */
-    max-width: 600px; /* Increase max-width */
-    margin-bottom: 20px; /* Add bottom margin for spacing */
-    padding-bottom: 20px; /* Add padding at the bottom for extra space */
+     height: auto;
+     width: 800px;
+     margin-bottom: 40px;
   }
 .rodape {
     padding: 24px;
