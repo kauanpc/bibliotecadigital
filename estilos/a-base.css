@@ -47,7 +47,7 @@ body{
     padding-left: 2%;
     color:#619177
 }
-img {
+.gifmundo {
     height: auto;
     width: 150%;
     border-radius: 18%;
@@ -158,5 +158,29 @@ strong{
 .base_botao_links span {
     margin-top: 8px; /* Move o texto para baixo */
     color:#ad9978
-}
+} 
+.base_container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center; /* Center the content horizontally */
+  }
+  
+  .base_titulo2 {
+    padding-bottom: 20px;
+    padding-top: 3%;
+    font-family: 'Share Tech Mono', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 2%;
+    text-align: center; /* Center the title text */
+  }
+  
+  .roadmap {
+    height: 5%;
+    width: 80%; /* Increase width to 80% */
+    max-width: 600px; /* Increase max-width */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+    padding-bottom: 20px; /* Add padding at the bottom for extra space */
+  }
 
