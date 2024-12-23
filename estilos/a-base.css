@@ -174,7 +174,14 @@ strong{
     font-weight: 600;
     margin-bottom: 2%;
     text-align: center; /* Center the title text */
+    white-space: nowrap;
   }
+.base_titulo2_destaque{
+    font-family:'Share Tech Mono', sans-serif;
+    font-size: 45px;
+    padding-left: 2%;
+    color:#619177
+}
   
 .roadmap {
      height: auto;
