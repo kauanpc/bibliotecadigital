@@ -78,7 +78,7 @@ body{
     padding-top: 15%;
     padding-left: 20%;
 }
-strong{
+.texto_destaque{
     color: #5b756c;
     font-family: 'Share Tech Mono', sans-serif;
     font-size: 30px;
@@ -196,4 +196,3 @@ strong{
     font-family: "Montserrat", sans-serif;
     font-size: 1,25rem;
 }
-
