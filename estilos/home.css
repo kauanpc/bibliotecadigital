@@ -100,3 +100,12 @@ body {
     border-radius: 15%; /* Deixa a imagem arredondada */
     height: auto; /* Mantém a proporção da imagem */
 }
+.rodape {
+    width: 100%;
+    padding: 24px;
+    color: black;
+    background-color: #619177;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1,25rem;
+}
