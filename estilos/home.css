@@ -101,6 +101,7 @@ body {
     height: auto; /* Mantém a proporção da imagem */
 }
 .biblioteca_home2{
+    background-color: #594433;
     padding: 4% 15%;
     display: flex;
     justify-content: center;

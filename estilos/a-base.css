@@ -165,6 +165,9 @@ body{
     justify-content: space-between; 
     align-items: center; /* Center the content horizontally */
   }
+.base_roadmap{
+    background-color:#594433 ;
+  }
   
 .base_titulo2 {
     padding-bottom: 20px;
